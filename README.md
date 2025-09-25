@@ -2,19 +2,19 @@
 
 A comprehensive machine learning project for predicting California house prices using the California Housing dataset.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an end-to-end machine learning pipeline to predict house prices with the goal of achieving at least 15% improvement over baseline RMSE. The project successfully achieved **62.1% improvement** over baseline.
 
-## 📊 Final Results
+## Final Results
 
 - **RMSE**: 0.4392 (Original Scale)
 - **MAE**: 0.2793
 - **R²**: 0.8528
-- **Improvement over Baseline**: 62.1% ✓
+- **Improvement over Baseline**: 62.1%
 - **Target Achievement**: YES (exceeded 15% target)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 house/
@@ -37,7 +37,7 @@ house/
 └── README.md                           # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -79,7 +79,7 @@ prediction = pipeline.predict_single(sample_data)
 print(f"Predicted price: ${prediction:.2f}")
 ```
 
-## 🔧 Features
+## Features
 
 ### Data Preprocessing
 - **Feature Engineering**: 12 new features including polynomial terms, ratios, and density metrics
@@ -104,7 +104,7 @@ print(f"Predicted price: ${prediction:.2f}")
 - Hyperparameter tuning with GridSearchCV and RandomizedSearchCV
 - Automated best model selection based on RMSE
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | CV RMSE | Test RMSE | R² Score |
 |-------|---------|-----------|----------|
@@ -113,7 +113,7 @@ print(f"Predicted price: ${prediction:.2f}")
 | Gradient Boosting | 0.1420 | - | - |
 | Linear Regression | 0.2890 | - | - |
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Key Components
 
@@ -129,7 +129,7 @@ print(f"Predicted price: ${prediction:.2f}")
 - Feature importance analysis
 - Prediction explanations
 
-## 📊 Data Insights
+## Data Insights
 
 - **Dataset**: 20,640 California housing records
 - **Features**: 8 original + 12 engineered = 20 total features
@@ -142,16 +142,16 @@ print(f"Predicted price: ${prediction:.2f}")
 - Age and room ratios significantly impact pricing
 - Population density affects house values
 
-## 🎯 Project Achievements
+## Project Achievements
 
-✅ **Data Loading & EDA**: Complete analysis with visualizations  
-✅ **Data Preprocessing**: Advanced feature engineering and cleaning  
-✅ **Model Training**: 10 different algorithms implemented  
-✅ **Model Evaluation**: Comprehensive performance analysis  
-✅ **Production Pipeline**: Ready-to-use prediction interface  
-✅ **Target Achievement**: 62.1% RMSE improvement (exceeded 15% goal)  
+- **Data Loading & EDA**: Complete analysis with visualizations  
+- **Data Preprocessing**: Advanced feature engineering and cleaning  
+- **Model Training**: 10 different algorithms implemented  
+- **Model Evaluation**: Comprehensive performance analysis  
+- **Production Pipeline**: Ready-to-use prediction interface  
+- **Target Achievement**: 62.1% RMSE improvement (exceeded 15% goal)  
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Making Predictions
 
@@ -185,7 +185,7 @@ for feature, score in importance[:5]:
     print(f"{feature}: {score:.4f}")
 ```
 
-## 🔍 Model Interpretability
+## Model Interpretability
 
 The project includes feature importance analysis and prediction explanations to understand model decisions:
 
@@ -193,7 +193,7 @@ The project includes feature importance analysis and prediction explanations to 
 - **Prediction Explanations**: Provides insights into individual predictions
 - **Model Comparison**: Detailed performance metrics across all models
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.7+
 - pandas >= 1.3.0
@@ -203,7 +203,7 @@ The project includes feature importance analysis and prediction explanations to 
 - seaborn >= 0.11.0
 - xgboost >= 1.5.0
 
-## 🤝 Contributing
+## Contributing
 
 This project demonstrates a complete ML workflow from data exploration to production deployment. Key learning outcomes include:
 
@@ -213,12 +213,12 @@ This project demonstrates a complete ML workflow from data exploration to produc
 - Production-ready code organization
 - Performance optimization and evaluation
 
-## 📄 License
+## License
 
 This project is for educational and demonstration purposes.
 
 ---
 
-**Project Status**: ✅ COMPLETED  
-**Performance Target**: ✅ EXCEEDED (62.1% vs 15% target)  
-**Production Ready**: ✅ YES
+**Project Status**: COMPLETED  
+**Performance Target**: EXCEEDED (62.1% vs 15% target)  
+**Production Ready**: YES
